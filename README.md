@@ -1,5 +1,7 @@
 # Arctic Calculator
 
+August 2019
+
 The Arctic Calculator is a simple concept which allows us to calculate the impact of our air miles on the Arctic circle. It is an environmental awareness project, created as part of Impact Makers' Fixathon.
 
 Impact Makers is an open community trying to find tech solutions to environmental issues. The Fixathon (2-30 August 2019) is an online hackathon to help fix the climate. It is a chance for the community to make a collective, concentrated and focused effort to contribute positively to the cause.
