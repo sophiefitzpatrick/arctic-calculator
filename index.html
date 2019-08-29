@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<!--non-visible-->
+
+<head>
+    <title>Arctic Ice Calculator</title>
+    <link href="climate.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+</head>
+
+<body>
+	<div id='wrapper'>
+		<header>
+			<div id='aboutheader'>
+				<h4> <a href="about.html"> About </a> </h4>
+			</div>
+			<div id='scienceheader'>
+				<h4> <a href="science.html"> Science </a> </h4>
+			</div>
+		</header>
+		<div id='title'>
+			<h1> What is your Arctic impact? </h1>
+		</div>
+		<form id='field' method='post' onsubmit='return false'>
+
+			<div id='textfield'>
+
+				<div id='inputtext'>
+					<h3> Number of air miles: </h3>
+				</div>
+				<div id='inputbox'>
+					<input id='input' style='font-size: 14px;' style='font-family: "Roboto Slab", serif;' type='number' name='input' value=''> <br>
+				</div>
+			</div>
+			<div id='submitbox'>
+	  			<button id='submit'
+	  			onClick='doCalculation(event)'> Go! </button>
+  			</div>
+		</form>
+		<div id='result'>
+		</div>
+		<footer>
+    		<a href="https://twitter.com/srfitzpatrick_" target="_blank"><img class="icon" src="twitter.png" alt="twitter logo"/></a>
+    		<a href="https://github.com/sophiefitzpatrick" target="_blank"><img class="icon" src="github.png" alt="github logo"/></a>
+    		<a href="https://www.linkedin.com/in/sophiefitzpatrick/" target="_blank"><img class="icon" src="linkedin.png" alt="linkedin logo"/></a>
+		</footer>
+	</div>
+</body>
